@@ -13,6 +13,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.2.3",
     "typescript": "^4.2.4",
     "web-vitals": "^1.0.1"
   },
@@ -25,8 +26,10 @@
     "lint": "eslint --fix ."
   },
   "devDependencies": {
+    "@types/styled-components": "^5.1.9",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
+    "babel-plugin-styled-components": "^1.12.0",
     "eslint": "^7.25.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-config-prettier": "^8.3.0",
@@ -40,6 +43,9 @@
     "husky": "^6.0.0",
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1"
+  },
+  "resolutions": {
+    "styled-components": "^5"
   },
   "lint-staged": {
     "./**/*.{js,jsx,ts,tsx}": [

@@ -1,10 +1,11 @@
 import React from 'react'
+import Title from './components/shared/Title'
 
 const App = (): JSX.Element => {
   return (
-    <div className='App'>
-      <h1>React Analog Clock</h1>
-    </div>
+    <>
+      <Title>React Analog Clock</Title>
+    </>
   )
 }
 
