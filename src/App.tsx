@@ -1,12 +1,8 @@
 import React from 'react'
-import Title from './components/shared/Title'
+import Routes from './routes'
 
 const App = (): JSX.Element => {
-  return (
-    <>
-      <Title>React Analog Clock</Title>
-    </>
-  )
+  return <Routes />
 }
 
 export default App
